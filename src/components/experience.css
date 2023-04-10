@@ -1,0 +1,8 @@
+.work_img{
+  
+    justify-items: center;
+    width: 90%;
+    height: 70%;
+    object-fit: contain;
+ 
+}
