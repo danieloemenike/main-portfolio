@@ -192,7 +192,7 @@ const projects = [
       },
     ],
     image: threed,
-    source_code_link: "www.shirtdesign.onrender.com/",
+    source_code_link: "https://shirtdesign.onrender.com/",
   },
   {
     name: "Airbnb Clone",
