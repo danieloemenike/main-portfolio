@@ -26,11 +26,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import threed from "./3d.png";
 import linkup from "./company/linkupp.png";
 import titan from "./company/titann.png";
-import acme from "./company/acme.png"
+import acme from "./company/Acme.png";
+import airbnb from "./airbnb.png";
+import fitfam from "./fitfam.png";
+
 export {
+  airbnb,
+  fitfam,
+  threed,
   logo,
   backend,
   creator,

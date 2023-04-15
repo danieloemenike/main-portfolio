@@ -18,9 +18,10 @@ import {
   tesla,
   shopify,
   carrent,
+  threed,
   jobit,
   tripguide,
-  linkup, titan
+  linkup, titan, airbnb, fitfam
 } from "../assets";
 
 export const navLinks = [
@@ -173,16 +174,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Clothing Design Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3D Clothing Design Website with OpenAi plugin integration.The website takes in input design and also fetches a logo design to use as a mockup on the shirt..",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "React3Fiber",
         color: "green-text-gradient",
       },
       {
@@ -190,50 +191,44 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: threed,
+    source_code_link: "www.shirtdesign.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Airbnb Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This integrates the Calendar and Map Features when search is being implemented. Mock Json api data was used. ",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    
+    ],
+    image: airbnb,
+    source_code_link: "https://airbnbproj.vercel.app/",
+  },
+  {
+    name: "FitFam Inc",
+    description:
+      "A React App created for fitness enthusiasts",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
+     
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fitfam,
+    source_code_link: "https://fitfam.vercel.app/",
   },
 ];
 
